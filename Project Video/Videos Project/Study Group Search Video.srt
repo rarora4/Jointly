@@ -1,0 +1,43 @@
+1
+00:00:01,000 --> 00:00:07,000
+User Login
+
+2
+00:00:08,700 --> 00:00:12,000
+Application Homepage
+
+3
+00:00:14,000 --> 00:00:22,000
+User Searching for Existing Groups
+
+4
+00:00:27,000 --> 00:00:29,0500
+Search Results
+
+5
+00:00:31,500 --> 00:00:37,000
+User Previewing Group Schedule on his Calendar Schedule
+
+6
+00:00:40,500 --> 00:00:42,500 
+User expanding Group Information
+
+7
+00:00:44,000 --> 00:00:45,300
+User sending Join Group Request
+
+8
+00:00:45,600 --> 00:00:48,000
+New Request appears on Calendar (Pending Event)
+
+9
+00:00:49,000 --> 00:00:55,500
+User navigating to 'My Groups' to see pending group list
+
+10
+00:01:01,000 --> 00:01:02,500
+New Pending Request 'ADS' under Pending Requests panel
+
+11
+00:01:11,750 --> 00:01:12,500
+End

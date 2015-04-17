@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="aspnet-Jointly-60a973a1-9bdd-405e-a6d2-71c5add22c1d" Class="DataBaseDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Jointly-60a973a1-9bdd-405e-a6d2-71c5add22c1d.mdf;Initial Catalog=aspnet-Jointly-60a973a1-9bdd-405e-a6d2-71c5add22c1d;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="aspnet_Jointly_60a973a1_9bdd_405e_a6d2_71c5add22c1dConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StudentAcc" Member="StudentAccs">
+    <Type Name="StudentAcc">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="unityID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="firstLogin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="contactNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CourseTable" Member="CourseTables">
+    <Type Name="CourseTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="courseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="professorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="courseCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unityID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.groupTable" Member="groupTables">
+    <Type Name="groupTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="groupName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="rules" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="courseCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="maxSize" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Topic" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="meetLocation" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="currentSize" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="groupAdmin" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="activeFlag" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TimeTable" Member="TimeTables">
+    <Type Name="TimeTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="startTime" Type="System.Decimal" DbType="Decimal(4,1)" CanBeNull="true" />
+      <Column Name="endTime" Type="System.Decimal" DbType="Decimal(4,1)" CanBeNull="true" />
+      <Column Name="day" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="matchID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
